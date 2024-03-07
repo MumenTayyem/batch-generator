@@ -1,0 +1,13 @@
+{
+	"configuration": {
+		"className": "<classname>",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"onErrorFail": "false",
+			"taskItemDelegateName": "DEFAULT",
+			"updateStrategy": "UPDATE"
+		}
+	},
+	"items": <items>
+}

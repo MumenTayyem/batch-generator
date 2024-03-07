@@ -1,0 +1,15 @@
+assemble:
+    - from: batch
+      into: batch
+<prefix-lowercase-dashed>-batch-<classname-lowercase-dashed>:
+    name: <prefix-startcase-spaced> Batch <classname-startcase-spaced>
+    oAuthApplicationHeadlessServer: <prefix-lowercase-dashed>-batch-<classname-lowercase-dashed>-oauth-application-headless-server
+    type: batch
+<prefix-lowercase-dashed>-batch-<classname-lowercase-dashed>-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: <prefix-startcase-spaced> Batch <classname-startcase-spaced> OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Batch.Engine.everything
+        - Liferay.Object.Admin.REST.everything
+    type: oAuthApplicationHeadlessServer

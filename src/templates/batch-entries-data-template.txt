@@ -1,0 +1,14 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.rest.dto.v1_0.ObjectEntry",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"onErrorFail": "false",
+			"taskItemDelegateName": "C_<key>",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "C_<key>"
+	},
+	"items": <items>
+}
